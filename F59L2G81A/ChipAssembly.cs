@@ -2,7 +2,7 @@ using NAND_Prog;
 using System;
 using System.ComponentModel.Composition;
 
-namespace F59L1G81A
+namespace F59L2G81A
 {
     /*
      use the design :
@@ -33,7 +33,7 @@ namespace F59L1G81A
         ChipAssembly()
         {
             myChip.devManuf = "ESMT";
-            myChip.name = "F59L1G81A";
+            myChip.name = "F59L2G81A";
             myChip.chipID = "92F1809540";      // device ID - 92h F1h 80h 95h 40h
 
             myChip.width = Organization.x8;    // chip width - 8 bit
@@ -107,7 +107,7 @@ namespace F59L1G81A
 
            // if (BitConverter.ToString(content).Replace("-", "") != "ECF1001540")
            // {
-           //     messsage += "This chip is not a F59L1G81A";
+           //     messsage += "This chip is not a F59L2G81A";
            //     return messsage;
            // }
            
@@ -150,9 +150,9 @@ namespace F59L1G81A
                 case 1:
                     str_result += "Device ";
                     if (bt == 0xF1)
-                        str_result += "is F59L1G81A";
+                        str_result += "is F59L2G81A";
                     else
-                        str_result += "is not F59L1G81A";
+                        str_result += "is not F59L2G81A";
                     str_result += Environment.NewLine;
                     break;
 

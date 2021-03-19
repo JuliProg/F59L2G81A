@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace F59L1G81A.Properties {
+namespace F59L2G81A.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

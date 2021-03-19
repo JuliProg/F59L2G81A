@@ -1,10 +1,10 @@
-![Create new chip](https://github.com/JuliProg/F59L1G81A/workflows/Create%20new%20chip/badge.svg?event=repository_dispatch)
-![ChipUpdate](https://github.com/JuliProg/F59L1G81A/workflows/ChipUpdate/badge.svg)
+![Create new chip](https://github.com/JuliProg/F59L2G81A/workflows/Create%20new%20chip/badge.svg?event=repository_dispatch)
+![ChipUpdate](https://github.com/JuliProg/F59L2G81A/workflows/ChipUpdate/badge.svg)
 # Join the development of the project ([list of tasks](https://github.com/users/JuliProg/projects/1))
 
 
-# F59L1G81A
-Implementation of the F59L1G81A chip for the JuliProg programmer
+# F59L2G81A
+Implementation of the F59L2G81A chip for the JuliProg programmer
 
 Dependency injection, DI based on MEF framework is used to connect the chip to the programmer.
 
@@ -23,7 +23,7 @@ Dependency injection, DI based on MEF framework is used to connect the chip to t
         ChipAssembly()
         {
             myChip.devManuf = "ESMT";
-            myChip.name = "F59L1G81A";
+            myChip.name = "F59L2G81A";
             myChip.chipID = "92F1809540";      // device ID - 92h F1h 80h 95h 40h
 
             myChip.width = Organization.x8;    // chip width - 8 bit
@@ -88,6 +88,7 @@ Dependency injection, DI based on MEF framework is used to connect the chip to t
         
 ```
 </section>
+
 
 
 
