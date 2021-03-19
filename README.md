@@ -24,16 +24,16 @@ Dependency injection, DI based on MEF framework is used to connect the chip to t
         {
             myChip.devManuf = "ESMT";
             myChip.name = "F59L2G81A";
-            myChip.chipID = "92F1809540";      // device ID - 92h F1h 80h 95h 40h
+            myChip.chipID = "C8DA909544";      // device ID - C8h DAh 90h 95h 44h
 
             myChip.width = Organization.x8;    // chip width - 8 bit
             myChip.bytesPP = 2048;             // page size - 2048 byte (2Kb)
             myChip.spareBytesPP = 64;          // size Spare Area - 64 byte
             myChip.pagesPB = 64;               // the number of pages per block - 64 
-            myChip.bloksPLUN = 1024;           // number of blocks in CE - 1024
+            myChip.bloksPLUN = 2048;           // number of blocks in CE - 1024
             myChip.LUNs = 1;                   // the amount of CE in the chip
             myChip.colAdrCycles = 2;           // cycles for column addressing
-            myChip.rowAdrCycles = 2;           // cycles for row addressing 
+            myChip.rowAdrCycles = 3;           // cycles for row addressing 
             myChip.vcc = Vcc.v3_3;             // supply voltage
 
 ```
@@ -88,6 +88,7 @@ Dependency injection, DI based on MEF framework is used to connect the chip to t
         
 ```
 </section>
+
 
 
 
